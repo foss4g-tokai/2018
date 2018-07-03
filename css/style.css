@@ -364,7 +364,8 @@ About us ========*/
   margin-top: 60px;
 }
 .content-block {
-text-align: center;
+  text-align: center;
+  padding-bottom: 50px;
 }
 /*--------------------
 Testimonials ========*/
