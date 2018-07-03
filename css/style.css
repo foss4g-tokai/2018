@@ -99,8 +99,8 @@ a, a:hover, a:active, a:focus {
 
 a {
   text-decoration:none;
-  color: #0084ff;
-  border-bottom: 2px solid #0084ff;
+  color: #000000;
+  border-bottom: 2px solid #ff0730;
 }
 
 a:hover {
@@ -257,7 +257,7 @@ input[type='submit']:active {
 }
 
 .header-menu > .box {
-  background: #C5EFF7;
+  background: #FFF;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -446,11 +446,9 @@ Header CTA ========*/
   }
   }
 .entry-title {
-    font-family: 'Oswald', sans-serif;
     font-size: 46px;
     line-height: 52px;
-    text-transform: uppercase;
-    background: rgba(197, 239, 247, 0.74);
+    background: rgba(255, 255, 255, 0.74);
     padding: 20px;
     margin-bottom: 3px;
     transition: all 0.5s;
@@ -588,11 +586,10 @@ background: none;
 
 .navbar-brand {
     float: left;
-    font-size: 1.8rem;
+    font-size: 22px;
     height: 6rem;
     color: black;
     line-height: 4rem;
-    font-size: 3.8rem;
     font-weight: 700;
     padding: 1rem 0;
 }
@@ -1481,5 +1478,19 @@ font-weight: bold;
   background-image: url(../images/wordpress.png);
 }
 
+/* ここから追加 */
+.btn-entry 
+{
+  display: block;
+  height: 60px;
+  border-radius: 8px;
+  background: #ff0730;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  border-style: none;
+}
 
-
+body {
+  font-family: 'Source Sans Pro', Helvetica , Arial, '游ゴシック体', 'YuGothic', 'メイリオ', 'Meiryo', sans-serif;
+}
