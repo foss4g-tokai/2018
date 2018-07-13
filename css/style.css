@@ -1505,6 +1505,16 @@ body {
   background-color: white;
 }
 
+/*
+.border:before
+{
+  content: "";
+  margin: -50px 0 50px;
+  display: block;
+  height: 2px;
+}
+*/
+
 .row-eq-height {
   display: flex;
   flex-wrap: wrap;
