@@ -14,7 +14,7 @@
 	html { font-size: 50.5% }
 	.content section { padding: 25px 0; }
 	.content section + section:before { margin: -25px 15px 25px; }
-	.box { padding: 0 25px; }
+	.box { padding: 0 0; }
 	.content section.separated { margin: 0 -25px -3px 0; }
 
 	.navbar-nav,
@@ -36,7 +36,7 @@
 	html { font-size: 54.5% }
 	.content section { padding: 35px 0; }
 	.content section + section:before { margin: -35px 15px 35px; }
-	.box { padding: 0 35px; }
+	.box { padding: 0 0; }
 	.content section.separated { margin: 0 -35px -3px 0; }
 
 	.navbar-nav,
