@@ -19,46 +19,6 @@
             fn.Apps();
         },
 
-
-
-        // Google Maps
-        /*
-        GoogleMaps: function () {
-
-            var markerInfo = "<h4>" + venueAddress + "</h4>";
-            $("#map_canvas").gmap3({
-                map: {
-                    options: {
-                        maxZoom: 15,
-                        streetViewControl: false,
-                        panControl: true,
-                        panControlOptions: {
-                            position: google.maps.ControlPosition.RIGHT_CENTER
-                        },
-                        zoomControl: true,
-                        zoomControlOptions: {
-                            style: google.maps.ZoomControlStyle.LARGE,
-                            position: google.maps.ControlPosition.LEFT_CENTER
-                        },
-                        mapTypeControl: false
-
-                    }
-                },
-                infowindow: {
-                    address: venueAddress,
-                    options: {
-                        content: markerInfo
-                    }
-                },
-                marker: {
-                    address: venueAddress
-                }
-            },
-                "autofit");
-        },
-        */
-
-
         // Sticky Menu
         MenuSticky: function () {
             var menu = document.querySelector('#menu'),
@@ -111,6 +71,14 @@
         // One Page Navigation
         Navigation: function () {
             $('#menu').onePageNav({
+                currentClass: 'current',
+                scrollSpeed: 500,
+                scrollOffset: 60,
+                scrollThreshold: 0.2,
+                easing: 'swing'
+            });
+
+            $('#session-timetable').onePageNav({
                 currentClass: 'current',
                 scrollSpeed: 500,
                 scrollOffset: 60,

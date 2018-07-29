@@ -1556,3 +1556,14 @@ body {
   max-width: 100px;
   margin-right: 15px;
 }
+
+li {
+  font-size: 18px;
+}
+
+a.internal {
+  text-decoration:none;
+  color: #000000;
+  border-bottom: 1px solid #ff0730;
+}
+
