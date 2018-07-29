@@ -1520,3 +1520,27 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
+.timetable {
+  margin-bottom: 30px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.timetable td{
+  font-size: 18px;
+  border: 1px solid #999999;
+  padding: 10px;
+}
+
+.timetable th{
+  font-size: 18px;
+  padding-right: 15px;
+  padding: 10px;
+  border: 1px solid #999999;
+}
+
+.timetable .speaker {
+  margin-left: 15px;
+  color: #333;
+}
