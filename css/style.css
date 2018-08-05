@@ -575,11 +575,11 @@ background: none;
 .navbar-nav > li > a {
   line-height: 2.4rem;
   padding: 0.8rem 1rem;
-  font-size: 1.5rem;
   font-weight: bold;
   border-radius: 2px;
   color: black;
   overflow: hidden;
+  border: 0 none #000000;
 }
 
 .navbar-nav > li.current > a {
@@ -599,6 +599,10 @@ background: none;
 .navbar-brand span {
     margin-right: 10px;
     color: #bbbac0;
+}
+
+.navbar-brand > a {
+  border: 0 none #000000;
 }
 
 .navbar-brand:hover {
