@@ -1574,3 +1574,12 @@ a.internal {
 .share {
   margin-top: 10px;
 }
+
+.sponser-link {
+  border-style: none;
+}
+
+.sponser-link > img{
+  margin: 15px;
+  max-width: 350px;
+}
